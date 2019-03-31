@@ -1,2 +1,2 @@
-# TestingSystem
-Testing System for your task
+# Testing System
+Данная система используется для удобной тестировки программ
