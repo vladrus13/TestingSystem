@@ -1,0 +1,3 @@
+cd Vl/Projects/C++/CheckerBinarySearchJava/CheckerBinarySearchJava
+g++ -o haha Source.cpp
+

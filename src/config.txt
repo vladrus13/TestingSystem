@@ -1,5 +1,6 @@
-NAME_GENERATOR="src/generator/generator.java"
-NAME_STRESS="src/test/stress.exe"
-NAME_FAST="src/test/fast.exe"
-NAME_RESULT="src/result.txt"
-COUNT_OF_RANDOM_TESTS="100"
+NAME_GENERATOR=src/generator/generator.java
+NAME_STRESS=src/test/stress.exe
+NAME_FAST=src/test/fast.exe
+NAME_RESULT=src/result.txt
+FILE_NAME=template
+COUNT_OF_RANDOM_TESTS=100
