@@ -1,0 +1,5 @@
+Compile time: 476 ms.
+Test 1 accepted! Time: 16ms.
+Test 2. Wrong answer! Time: 6ms.
+================================
+Total: 2, accepted: 1, wrong answer: 1

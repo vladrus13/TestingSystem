@@ -3,27 +3,17 @@ package base;
 import java.io.File;
 
 public class Tests {
-    private static int counter = 0;
-    private static File[] testsFiles;
-    public Tests() {
-        counter = 0;
-        File template = new File("tests");
-        testsFiles = template.listRoots();
+    private static File test;
+
+    public Tests(Configs configs) throws SpecialException {
+        test = new File(configs.get("MAIN_PATH") + "tests");
     }
 
-    public boolean isEnd() {
-        return counter >= testsFiles.length - 1;
+    public static File getInTest(int number) {
+        return new File(test, Integer.toString(number) + ".in");
     }
 
-    public void nextTest() {
-        counter++;
-        if (counter == testsFiles.length) {
-            counter--;
-        }
+    public static File getOutTest(int number) {
+        return new File(test, Integer.toString(number) + ".out");
     }
-
-    public File getTest() {
-        return testsFiles[counter];
-    }
-
 }

@@ -14,7 +14,7 @@ public class Configs {
 
     public Configs() throws FileNotFoundException, SpecialException {
         Scanner in = null;
-        in = new Scanner(new File("config.txt"));
+        in = new Scanner(new File("src/config.txt"));
         while (in.hasNextLine()) {
             String template = in.nextLine();
             String[] temp = template.split("=");

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53aee8d-a62c-4507-afe6-b35da3591335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/Configs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/SpecialException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Configs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compile" beforeDir="false" afterPath="$PROJECT_DIR$/src/compile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generator/newTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +73,13 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestingSystem" />
+      <module name="TestingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +95,8 @@
       <workItem from="1565603094834" duration="9346000" />
       <workItem from="1565720835629" duration="2987000" />
       <workItem from="1565940051724" duration="27013000" />
-      <workItem from="1566071153163" duration="6313000" />
+      <workItem from="1566071153163" duration="8203000" />
+      <workItem from="1566123937369" duration="21401000" />
     </task>
     <servers />
   </component>
@@ -111,6 +118,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestingSystem.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TestingSystem$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1566152894320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
