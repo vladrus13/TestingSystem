@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53aee8d-a62c-4507-afe6-b35da3591335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/HTMLWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/Source" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/Source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/base/Configs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/base/Configs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/base/SpecialException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/base/SpecialException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/base/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/changes.diff" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/changes.diff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/compile" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/compile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/output.outout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/template.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/template.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Source" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Source.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Configs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/SpecialException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/SpecialException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/changes.diff" beforeDir="false" afterPath="$PROJECT_DIR$/src/changes.diff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compile" beforeDir="false" afterPath="$PROJECT_DIR$/src/compile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output.outout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.out" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,30 +56,23 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554069955377" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/ParserExceptionEdition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../G/LibGDX/firstLibGDX" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -96,116 +116,87 @@
       <workItem from="1565720835629" duration="2987000" />
       <workItem from="1565940051724" duration="27013000" />
       <workItem from="1566071153163" duration="8203000" />
-      <workItem from="1566123937369" duration="21401000" />
+      <workItem from="1566123937369" duration="27419000" />
+      <workItem from="1566379950346" duration="8177000" />
+      <workItem from="1566402999972" duration="1092000" />
+      <workItem from="1566586694514" duration="2440000" />
+      <workItem from="1566712122075" duration="1607000" />
+      <workItem from="1566714095823" duration="2214000" />
+      <workItem from="1566854082191" duration="2429000" />
+      <workItem from="1566864645048" duration="5229000" />
+      <workItem from="1567087844703" duration="705000" />
+      <workItem from="1567097469149" duration="16000" />
+      <workItem from="1594281637711" duration="3031000" />
+      <workItem from="1594305716716" duration="10860000" />
+      <workItem from="1594316702144" duration="429000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestingSystem.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="666" y="355" width="577" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594282312949">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="666" y="355" width="577" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1594282312949" />
+    <state x="768" y="257" width="374" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1594311609697">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="257" width="374" height="599" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1594311609697" />
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594313187800">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594313187800" />
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1594316599555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599555" />
+    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1594316599554">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599554" />
+    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1594316599554">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599554" />
+    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1594316599555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599555" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1594316599556">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599556" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1594316599555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599555" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1594316599555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599555" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1594316599555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594316599555" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingSystem$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1566152894320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>TestingSystem</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

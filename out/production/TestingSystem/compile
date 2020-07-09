@@ -1,1 +1,1 @@
-g++ -o Source Source.cpp
+g++ -Wall -o Source Source.cpp

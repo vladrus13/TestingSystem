@@ -3,6 +3,5 @@ NAME_GENERATOR=generator/generator.java
 NAME_STRESS=test/stress.exe
 NAME_FAST=test/fast.exe
 NAME_RESULT=result.txt
-FILE_NAME=template
 COUNT_OF_RANDOM_TESTS=100
 COUNT_OF_TESTS=2

@@ -1,9 +1,7 @@
 package base;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -13,7 +11,7 @@ public class Configs {
     Map<String, String> configs = new HashMap<>();
 
     public Configs() throws FileNotFoundException, SpecialException {
-        Scanner in = null;
+        Scanner in;
         in = new Scanner(new File("src/config.txt"));
         while (in.hasNextLine()) {
             String template = in.nextLine();
