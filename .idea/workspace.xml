@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53aee8d-a62c-4507-afe6-b35da3591335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/3.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/4.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/4.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/Source" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/Source.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/changes.diff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Source.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/HTMLWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/HTMLWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/changes.diff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
       <workItem from="1594281637711" duration="3031000" />
       <workItem from="1594305716716" duration="10860000" />
       <workItem from="1594316702144" duration="648000" />
-      <workItem from="1594368762580" duration="2864000" />
+      <workItem from="1594368762580" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="Finish WA, AC and RE situation, add HTML">
       <created>1594317228500</created>
@@ -125,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594317228500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish TL">
+      <created>1594371688642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594371688643</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add style.css">
+      <created>1594371780383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594371780383</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +145,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish WA, AC and RE situation, add HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish WA, AC and RE situation, add HTML" />
+    <MESSAGE value="Finish TL" />
+    <MESSAGE value="Add style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add style.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="666" y="355" width="577" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594370796690">
@@ -160,26 +162,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594313187800" />
-    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1594317227523">
+    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1594371780110">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1594317227523" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1594371576771">
+    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1594371780110" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1594371691202">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594371576771" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1594371576770">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594371691202" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1594371691201">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594371576770" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1594371576769">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594371691201" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1594371691201">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594371576769" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1594371576770">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594371691201" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1594371691201">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594371576770" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594371691201" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1594370921725">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -196,10 +198,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594370921724" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594317272860">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594371791157">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594317272860" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594371791157" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingSystem$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1566152894320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
