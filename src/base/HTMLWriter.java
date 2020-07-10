@@ -47,7 +47,7 @@ public class HTMLWriter {
     }
 
     public synchronized void setTimeLimit(int test) {
-        result.set(test - 1, getRow(test, "Time Limit", 0, -1));
+        result.set(test - 1, getRow(test, "TL", 0, -1));
     }
 
     public synchronized void writeHTML() throws IOException {

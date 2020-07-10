@@ -26,9 +26,11 @@ public class TestingSystem {
             e.printStackTrace();
             System.exit(0);
         }
-        HTMLWriter htmlWriter = new HTMLWriter(Integer.parseInt(configs.get("COUNT_OF_TESTS")));
+        int countTest = Integer.parseInt(configs.get("COUNT_OF_TESTS"));
+        HTMLWriter htmlWriter = new HTMLWriter(countTest);
         System.out.println("Make a result file...");
         long startTest;
+        long timeLimit = Integer.parseInt(configs.get("TIME_LIMIT"));
         System.out.println("Compile Program...");
         ProcessBuilder builderComplile = new ProcessBuilder();
         builderComplile.directory(new File(configs.get("MAIN_PATH")));
@@ -44,31 +46,36 @@ public class TestingSystem {
             return;
         }
         ExecutorService workers = Executors.newFixedThreadPool(COUNT_THREADS);
-        for (int i = 1; i <= Integer.parseInt(configs.get("COUNT_OF_TESTS")); i++) {
+        for (int i = 1; i <= countTest; i++) {
             int finalI = i;
             Configs finalConfigs = configs;
-            workers.submit(() -> runTest(htmlWriter, finalI, finalConfigs));
+            workers.submit(() -> runTest(htmlWriter, finalI, finalConfigs, timeLimit));
         }
         workers.shutdown();
-        workers.awaitTermination(Integer.parseInt(configs.get("COUNT_OF_TESTS")), TimeUnit.SECONDS);
+        workers.awaitTermination(10 * countTest, TimeUnit.SECONDS);
         htmlWriter.writeHTML();
     }
 
-    private static synchronized void runTest(HTMLWriter htmlWriter, int test, Configs configs) {
+    private static synchronized void runTest(HTMLWriter htmlWriter, int test, Configs configs, long timeLimit) {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        long startTime = System.currentTimeMillis();
         Process process;
         System.out.println("Run " + test);
+        long startTime = System.currentTimeMillis();
         try {
             processBuilder.directory(new File(configs.get("MAIN_PATH"))).command("./Source").
                     redirectInput(new File(configs.get("MAIN_PATH") + "tests/" + test + ".in")).
                     redirectOutput(new File(configs.get("MAIN_PATH") + "tests/" + test + "T.out"));
             process = processBuilder.start();
-            process.waitFor();
-            int exitCode = process.exitValue();
+            process.waitFor(timeLimit * 2, TimeUnit.MILLISECONDS);
             long endTest = System.currentTimeMillis();
+            if (endTest - startTime > timeLimit) {
+                htmlWriter.setTimeLimit(test);
+                return;
+            }
+            int exitCode = process.exitValue();
             if (exitCode != 0) {
                 htmlWriter.setRuntimeError(test, exitCode, endTest - startTime);
+                return;
             }
             processBuilder.command("diff", "-B", "tests/" + test + ".out", "tests/" + test + "T.out").
                     redirectOutput(new File(configs.get("MAIN_PATH") + "tests/" + test + ".diff"));
