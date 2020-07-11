@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestingSystem {
 
-    static final int COUNT_THREADS = 10;
+    static final int COUNT_THREADS = 100;
 
     public static void main(String[] args) throws SpecialException, IOException, InterruptedException {
         System.out.println("Starting system...");
@@ -33,9 +33,7 @@ public class TestingSystem {
         long timeLimit = Integer.parseInt(configs.get("TIME_LIMIT"));
         System.out.println("Compile Program...");
         ProcessBuilder builderComplile = new ProcessBuilder();
-        builderComplile.directory(new File(configs.get("MAIN_PATH")));
-        builderComplile.command("sh", "compile");
-        builderComplile.directory(new File(configs.get("MAIN_PATH")));
+        builderComplile.directory(new File(configs.get("MAIN_PATH"))).command("make", "--silent", "all");
         startTest = System.currentTimeMillis();
         Process process = builderComplile.start();
         int exitCode = process.waitFor();
@@ -52,7 +50,7 @@ public class TestingSystem {
             workers.submit(() -> runTest(htmlWriter, finalI, finalConfigs, timeLimit));
         }
         workers.shutdown();
-        workers.awaitTermination(10 * countTest, TimeUnit.SECONDS);
+        workers.awaitTermination(2 * countTest * timeLimit, TimeUnit.MILLISECONDS);
         htmlWriter.writeHTML();
     }
 
@@ -60,13 +58,18 @@ public class TestingSystem {
         ProcessBuilder processBuilder = new ProcessBuilder();
         Process process;
         System.out.println("Run " + test);
-        long startTime = System.currentTimeMillis();
         try {
-            processBuilder.directory(new File(configs.get("MAIN_PATH"))).command("./Source").
+            File openFile = new File(configs.get("MAIN_PATH") + "tests/" + test + ".in");
+            if (!openFile.exists()) {
+                System.out.println("Test " + test + " doesn't exist!");
+                return;
+            }
+            processBuilder.directory(new File(configs.get("MAIN_PATH"))).command("make", "--silent", "run").
                     redirectInput(new File(configs.get("MAIN_PATH") + "tests/" + test + ".in")).
                     redirectOutput(new File(configs.get("MAIN_PATH") + "tests/" + test + "T.out"));
+            long startTime = System.currentTimeMillis();
             process = processBuilder.start();
-            process.waitFor(timeLimit * 2, TimeUnit.MILLISECONDS);
+            process.waitFor(timeLimit * 3 / 2, TimeUnit.MILLISECONDS);
             long endTest = System.currentTimeMillis();
             if (endTest - startTime > timeLimit) {
                 htmlWriter.setTimeLimit(test);
