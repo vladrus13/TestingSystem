@@ -1,6 +1,8 @@
-import base.Configs;
-import base.HTMLWriter;
-import base.SpecialException;
+package ru.vladrus13;
+
+import ru.vladrus13.base.Configs;
+import ru.vladrus13.base.HTMLWriter;
+import ru.vladrus13.base.SpecialException;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -9,9 +11,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class TestingSystem {
+public class RunTests {
 
-    static final int COUNT_THREADS = 100;
+    static int COUNT_THREADS = 1;
 
     public static void main(String[] args) throws SpecialException, IOException, InterruptedException {
         System.out.println("Starting system...");
@@ -26,14 +28,14 @@ public class TestingSystem {
             e.printStackTrace();
             System.exit(0);
         }
-        int countTest = Integer.parseInt(configs.get("COUNT_OF_TESTS"));
+        int countTest = Integer.parseInt(configs.get("COUNT_TESTS"));
         HTMLWriter htmlWriter = new HTMLWriter(countTest);
         System.out.println("Make a result file...");
         long startTest;
         long timeLimit = Integer.parseInt(configs.get("TIME_LIMIT"));
         System.out.println("Compile Program...");
         ProcessBuilder builderComplile = new ProcessBuilder();
-        builderComplile.directory(new File(configs.get("MAIN_PATH"))).command("make", "--silent", "all");
+        builderComplile.directory(new File(configs.get("MAIN_PATH"))).command("make", "--silent", "compile");
         startTest = System.currentTimeMillis();
         Process process = builderComplile.start();
         int exitCode = process.waitFor();
@@ -43,6 +45,7 @@ public class TestingSystem {
             htmlWriter.writeHTML();
             return;
         }
+        COUNT_THREADS = Integer.parseInt(configs.get("COUNT_THREADS"));
         ExecutorService workers = Executors.newFixedThreadPool(COUNT_THREADS);
         for (int i = 1; i <= countTest; i++) {
             int finalI = i;

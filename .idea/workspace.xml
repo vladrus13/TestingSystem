@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53aee8d-a62c-4507-afe6-b35da3591335" name="Default Changelist" comment="Make some upgrades.">
-      <change afterPath="$PROJECT_DIR$/src/Makefile" afterDir="false" />
+    <list default="true" id="c53aee8d-a62c-4507-afe6-b35da3591335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/vladrus13/RunRandomTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vladrus13/generator/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/TestingSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/base/Configs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/base/SpecialException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/tests/1.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/tests/1.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/tests/2.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem/tests/2.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/Source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/RunTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/base/Configs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/HTMLWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/base/HTMLWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/SpecialException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/base/SpecialException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/1.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/1.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/2.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/2.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/3.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/3.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/3.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/4.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/4.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/4.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vladrus13/tests/4.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,11 +93,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ru/vladrus13" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RunRandom">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -72,13 +119,24 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingSystem" />
+    <configuration name="RunRandom" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.vladrus13.RunRandomTests" />
       <module name="TestingSystem" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunTests" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vladrus13.RunTests" />
+      <module name="TestingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RunTests" />
+      <item itemvalue="Application.RunRandom" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,7 +169,8 @@
       <workItem from="1594368762580" duration="4858000" />
       <workItem from="1594462793028" duration="2731000" />
       <workItem from="1594468890498" duration="13000" />
-      <workItem from="1594480061401" duration="545000" />
+      <workItem from="1594480061401" duration="1013000" />
+      <workItem from="1594481155031" duration="4406000" />
     </task>
     <task id="LOCAL-00001" summary="Finish WA, AC and RE situation, add HTML">
       <created>1594317228500</created>
@@ -141,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594372920040</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Make some upgrades: Makefile, TL's">
+      <created>1594480796994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594480796994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,13 +230,14 @@
     <MESSAGE value="Finish TL" />
     <MESSAGE value="Add style.css" />
     <MESSAGE value="Finish README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish README.md" />
+    <MESSAGE value="Make some upgrades: Makefile, TL's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some upgrades: Makefile, TL's" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594468153196">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594485421915">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594468153196" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594485421915" />
     <state x="666" y="355" width="577" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594370796690">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -179,54 +246,69 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="768" y="257" width="374" height="599" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1594311609697" />
+    <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594485415642">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594485415641" />
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594466178444">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594466178444" />
-    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1594480442224">
+    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1594480796257">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1594480442224" />
+    <state x="499" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1594480796257" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594468175305">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594468175305" />
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom" timestamp="1594480299390">
+    <state width="1874" height="326" key="GridCell.Tab.0.bottom" timestamp="1594485561709">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594480299390" />
-    <state width="1874" height="326" key="GridCell.Tab.0.center" timestamp="1594480299389">
+    <state width="1874" height="326" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594485561709" />
+    <state width="1874" height="326" key="GridCell.Tab.0.center" timestamp="1594485561708">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594480299389" />
-    <state width="1874" height="326" key="GridCell.Tab.0.left" timestamp="1594480299387">
+    <state width="1874" height="326" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594485561708" />
+    <state width="1874" height="326" key="GridCell.Tab.0.left" timestamp="1594485561708">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594480299387" />
-    <state width="1874" height="326" key="GridCell.Tab.0.right" timestamp="1594480299390">
+    <state width="1874" height="326" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594485561708" />
+    <state width="1874" height="326" key="GridCell.Tab.0.right" timestamp="1594485561709">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594480299390" />
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1594373851184">
+    <state width="1874" height="326" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594485561709" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1594485547863">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594373851184" />
-    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1594373851184">
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594485547863" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1594485547862">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594373851184" />
-    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1594373851183">
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594485547862" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1594485547862">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594373851183" />
-    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1594373851184">
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594485547862" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1594485547863">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594373851184" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594372982742">
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594485547863" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594480814557">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594372982742" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594480814557" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ru/vladrus13/RunRandomTests.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingSystem$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1566152894320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

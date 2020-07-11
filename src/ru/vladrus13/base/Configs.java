@@ -1,4 +1,4 @@
-package base;
+package ru.vladrus13.base;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ public class Configs {
 
     public Configs() throws FileNotFoundException, SpecialException {
         Scanner in;
-        in = new Scanner(new File("src/config.txt"));
+        in = new Scanner(new File("src/ru/vladrus13/config.txt"));
         while (in.hasNextLine()) {
             String template = in.nextLine();
             String[] temp = template.split("=");

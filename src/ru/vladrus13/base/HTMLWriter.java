@@ -1,4 +1,4 @@
-package base;
+package ru.vladrus13.base;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class HTMLWriter {
-    private final ArrayList <String> result;
+    private final ArrayList<String> result;
     private String compilation = "";
     private long compileTime = -1;
 
